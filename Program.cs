@@ -14,7 +14,7 @@ for (int i = 0; i < size; i++) {
 }
 
 if(count == 0) {
-    Console.WriteLine("Ни один из жлементов исходного массива не удовлетворяет условию");
+    Console.WriteLine("[]");
 } else {
     Array.Resize(ref finalArr, count);
     Console.WriteLine(finalArr.Length);
